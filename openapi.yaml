@@ -1,0 +1,35 @@
+openapi: 3.0.1
+info:
+  title: Gerador de Treinos API
+  description: API para buscar treinos personalizados via planilha conectada.
+  version: '1.0.0'
+servers:
+  - url: https://sheetdb.io/api/v1/ivjt3knmks6sr
+paths:
+  /search:
+    get:
+      summary: Buscar treinos com filtros
+      parameters:
+        - in: query
+          name: Nível
+          schema:
+            type: string
+          required: false
+        - in: query
+          name: Objetivo
+          schema:
+            type: string
+          required: false
+        - in: query
+          name: Frequência
+          schema:
+            type: string
+          required: false
+        - in: query
+          name: Equipamento
+          schema:
+            type: string
+          required: false
+      responses:
+        '200':
+          description: Resultado da busca
