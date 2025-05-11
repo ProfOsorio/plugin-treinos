@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Gerador de Treinos",
+  "name_for_model": "gerador_de_treinos",
+  "description_for_human": "Gera treinos personalizados com base no nível, objetivo e equipamentos do aluno.",
+  "description_for_model": "Use este plugin para buscar treinos personalizados de acordo com nível, objetivo, frequência e equipamentos. Os dados estão em uma planilha conectada via API.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://seunome.github.io/plugin-treinos/openapi.yaml"
+  },
+  "logo_url": "https://i.imgur.com/FXY4W8k.png",
+  "contact_email": "teuemail@email.com",
+  "legal_info_url": "https://seusite.com/legal"
+}
