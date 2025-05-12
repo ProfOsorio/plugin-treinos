@@ -33,3 +33,4 @@ paths:
       responses:
         '200':
           description: Resultado da busca
+
