@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://seunome.github.io/plugin-treinos/openapi.yaml"
+    "url": "https://profosorio.github.io/plugin-treinos/openapi.yaml"
   },
   "logo_url": "https://i.imgur.com/FXY4W8k.png",
   "contact_email": "teuemail@email.com",
